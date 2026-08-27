@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 350" font-family="monospace">
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
+    </marker>
+  </defs>
+  <rect width="600" height="350" fill="#f8f9fa" rx="10"/>
+  
+  <!-- Title -->
+  <text x="300" y="30" text-anchor="middle" font-size="16" font-weight="bold" fill="#333">DKMS Workflow</text>
+  
+  <!-- Step 1 -->
+  <rect x="150" y="50" width="300" height="50" rx="8" fill="#e3f2fd" stroke="#1976d2" stroke-width="2"/>
+  <text x="300" y="75" text-anchor="middle" font-size="13" fill="#1976d2" font-weight="bold">New Kernel Installed</text>
+  <text x="300" y="92" text-anchor="middle" font-size="11" fill="#555">(apt install / make install)</text>
+  
+  <!-- Arrow 1 -->
+  <line x1="300" y1="100" x2="300" y2="130" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Step 2 -->
+  <rect x="150" y="130" width="300" height="50" rx="8" fill="#fff3e0" stroke="#f57c00" stroke-width="2"/>
+  <text x="300" y="155" text-anchor="middle" font-size="13" fill="#f57c00" font-weight="bold">DKMS Detects New Kernel</text>
+  <text x="300" y="172" text-anchor="middle" font-size="11" fill="#555">(automatic trigger)</text>
+  
+  <!-- Arrow 2 -->
+  <line x1="300" y1="180" x2="300" y2="210" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Step 3 -->
+  <rect x="150" y="210" width="300" height="50" rx="8" fill="#e8f5e9" stroke="#388e3c" stroke-width="2"/>
+  <text x="300" y="235" text-anchor="middle" font-size="13" fill="#388e3c" font-weight="bold">Rebuilds NVIDIA Module</text>
+  <text x="300" y="252" text-anchor="middle" font-size="11" fill="#555">(dkms build &amp; dkms install)</text>
+  
+  <!-- Arrow 3 -->
+  <line x1="300" y1="260" x2="300" y2="290" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Step 4 -->
+  <rect x="150" y="290" width="300" height="50" rx="8" fill="#f3e5f5" stroke="#7b1fa2" stroke-width="2"/>
+  <text x="300" y="315" text-anchor="middle" font-size="13" fill="#7b1fa2" font-weight="bold">NVIDIA Driver Ready</text>
+  <text x="300" y="332" text-anchor="middle" font-size="11" fill="#555">(gpu works on next boot)</text>
+</svg>

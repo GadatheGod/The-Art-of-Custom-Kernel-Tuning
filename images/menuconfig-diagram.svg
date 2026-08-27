@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 500" font-family="monospace">
+  <rect width="700" height="500" fill="#1a1a2e" rx="10"/>
+  
+  <!-- Title bar -->
+  <rect x="0" y="0" width="700" height="30" fill="#16213e"/>
+  <text x="350" y="20" text-anchor="middle" font-size="12" fill="#e94560" font-weight="bold">linux-6.x — Kernel Configuration</text>
+  
+  <!-- Left panel - menu -->
+  <rect x="10" y="40" width="300" height="440" fill="#0f3460" rx="5"/>
+  
+  <text x="20" y="60" fill="#00ff88" font-size="11">▸  Code maturity level options</text>
+  <text x="20" y="78" fill="#00ff88" font-size="11">▸  General setup</text>
+  <text x="20" y="96" fill="#00ff88" font-size="11">▸  Prompt for development and/or incomplete kernels</text>
+  <text x="20" y="114" fill="#00ff88" font-size="11">  Local version - append to kernel release</text>
+  <text x="20" y="132" fill="#00ff88" font-size="11">▸  Enable loadable module support</text>
+  <text x="20" y="150" fill="#00ff88" font-size="11">▸  Enable the block layer</text>
+  <text x="20" y="168" fill="#00ff88" font-size="11">▸  Processor type and features</text>
+  <text x="30" y="186" fill="#ffff00" font-size="11">▸  Generic ACPI (ACPICA) support</text>
+  <text x="30" y="204" fill="#ffff00" font-size="11">▸  CPU frequency scaling</text>
+  <text x="30" y="222" fill="#ffff00" font-size="11">▸  Power management and ACPI options</text>
+  <text x="30" y="240" fill="#ffff00" font-size="11">▸  NUMA scheduling</text>
+  <text x="20" y="260" fill="#00ff88" font-size="11">  [*] Symmetric multi-processing support</text>
+  <text x="30" y="278" fill="#ffff00" font-size="11">▸  Scheduler features</text>
+  <text x="30" y="296" fill="#ffff00" font-size="11">▸  Processor family</text>
+  <text x="30" y="314" fill="#ffff00" font-size="11">▸  Timer frequency</text>
+  <text x="30" y="332" fill="#00ff88" font-size="11">  [ ] Timer frequency  (250 HZ)</text>
+  <text x="40" y="350" fill="#ffff00" font-size="11">▸  Preemption Model</text>
+  <text x="40" y="368" fill="#00ff88" font-size="11">  [*]   Low-Latency Preemption (interactive)</text>
+  <text x="50" y="386" fill="#00ff88" font-size="11">  (Voluntary)  Preemption Model</text>
+  <text x="50" y="404" fill="#00ff88" font-size="11">  (Low-Preemption)  Preemption Model</text>
+  <text x="50" y="422" fill="#00ff88" font-size="11">  (Fully Preemptible Kernel (Real-Time))</text>
+  <text x="20" y="442" fill="#00ff88" font-size="11">▸  Floating point support</text>
+  <text x="20" y="460" fill="#00ff88" font-size="11">▸  Bus options (PCI etc.)</text>
+  <text x="20" y="478" fill="#00ff88" font-size="11">▸  Execution general options</text>
+  <text x="20" y="496" fill="#00ff88" font-size="11">▸  Memory Management options</text>
+  
+  <!-- Right panel - options -->
+  <rect x="320" y="40" width="370" height="440" fill="#16213e" rx="5"/>
+  
+  <text x="340" y="60" fill="#e94560" font-size="13" font-weight="bold">Processor type and features</text>
+  <text x="340" y="80" fill="#aaa" font-size="11">─────────────────────────────────────────</text>
+  <text x="340" y="100" fill="#fff" font-size="11">  Processor family (Core/Newer Xeon)  ---</text>
+  <text x="350" y="118" fill="#aaa" font-size="11">    ( ) 80386</text>
+  <text x="350" y="136" fill="#aaa" font-size="11">    ( ) 80486</text>
+  <text x="350" y="154" fill="#aaa" font-size="11">    ( ) 80486-amd</text>
+  <text x="350" y="172" fill="#aaa" font-size="11">    ( ) 80486-intel</text>
+  <text x="350" y="190" fill="#aaa" font-size="11">    ( ) 80486-via</text>
+  <text x="350" y="208" fill="#aaa" font-size="11">    ( ) 80486-amd-nopnr</text>
+  <text x="350" y="226" fill="#aaa" font-size="11">    ( ) 80486-intel-nopnr</text>
+  <text x="350" y="244" fill="#00ff88" font-size="11">    [*]  Core/Newer Xeon          (SELECTED)</text>
+  <text x="350" y="262" fill="#aaa" font-size="11">    ( ) P5</text>
+  <text x="350" y="280" fill="#aaa" font-size="11">    ( ) Pentium-Original</text>
+  <text x="350" y="298" fill="#aaa" font-size="11">    ( ) Pentium-M</text>
+  <text x="350" y="316" fill="#aaa" font-size="11">    ( ) Pentium-Pro</text>
+  <text x="350" y="334" fill="#aaa" font-size="11">    ( ) Pentium-MMX</text>
+  <text x="350" y="352" fill="#aaa" font-size="11">    ( ) Pentium-Centerton</text>
+  <text x="350" y="370" fill="#aaa" font-size="11">    ( ) Pentium-2 (Klamath)</text>
+  <text x="350" y="388" fill="#aaa" font-size="11">    ( ) Pentium-2 (Penium)</text>
+  <text x="350" y="406" fill="#aaa" font-size="11">    ( ) Pentium-3</text>
+  <text x="350" y="424" fill="#aaa" font-size="11">    ( ) Pentium-4</text>
+  <text x="350" y="442" fill="#aaa" font-size="11">    ( ) Intel Atom</text>
+  
+  <!-- Bottom bar -->
+  <rect x="0" y="470" width="700" height="30" fill="#16213e"/>
+  <text x="350" y="490" text-anchor="middle" font-size="11" fill="#aaa">Esc↑↓←→ Help    Save    Load    Exit    Quit</text>
+</svg>
