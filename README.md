@@ -2,8 +2,6 @@
 
 > A general guide to building, configuring, and optimizing Linux kernels — documented from our experience on an HP Z640 workstation with dual RTX 3090s.
 
-![HP Z640 Workstation](images/hp-z640.jpg)
-
 ---
 
 ## ⚠️ Disclaimer
@@ -421,8 +419,8 @@ Common issues:
 ---
 
 ## Terminal Example
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/71dd020e-08c5-454a-a09e-a11a57627349" />
 
-![Linux Terminal](images/linux-terminal.jpg)
 
 ### Verify Your Custom Kernel
 
